@@ -34,8 +34,8 @@ public class jdbc01 {
 				Statement stmt = conn.createStatement();
 				
 		//4. query
-				String sql = "INSERT INTO cust(cname, tel, birthday)" +
-							 "VALUES('double','0932','1985-01-12')";
+				String sql = "INSERT INTO cust (cname,tel,birthday)" + 
+					" VALUES ('Brad','123','1999-09-08')";
 				boolean isQueryOK = stmt.execute(sql);
 				if(isQueryOK){
 					System.out.println("OK");

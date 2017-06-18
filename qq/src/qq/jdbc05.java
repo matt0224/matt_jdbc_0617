@@ -1,15 +1,11 @@
 package qq;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Properties;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class jdbc3 {
+public class jdbc05 {
 
 	public static void main(String[] args) {
 //		String connectionUrl = 
@@ -17,7 +13,7 @@ public class jdbc3 {
 //				"user=sa;password=sa;" +
 //				"databaseName=Northwind;integratedSecurity=true;";
 		String connectionUrl = 
-				"jdbc:sqlserver://10.21.200.66:1433;" +
+				"jdbc:sqlserver://localhost:1433;" +
 				"user=sa;password=sa;" +
 				"databaseName=Northwind;";
 		try{
