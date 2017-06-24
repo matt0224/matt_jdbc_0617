@@ -1,10 +1,10 @@
-package qq;
+package tw.qq;
 
 public class matt061801 {
 
 	public static void main(String[] args) {
-//		p1 obj=new matt011(); //obj已經是實作物見了
-//		matt011 obj2=(matt011)obj;  //強制轉型obj2才能得到m2方法
+//		p1 obj=new matt011(); //obj嚙緩嚙篇嚙瞌嚙踝蕭@嚙踝蕭嚙踝蕭嚙瘤
+//		matt011 obj2=(matt011)obj;  //嚙篌嚙踝蕭嚙賞型obj2嚙羯嚙踝蕭o嚙踝蕭m2嚙踝蕭k
 		p1 obj=new matt011();
 		p1 obj2=new matt012();
 		//System.out.println();

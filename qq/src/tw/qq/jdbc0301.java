@@ -1,4 +1,4 @@
-package qq;
+package tw.qq;
 
 	import java.sql.Connection;
 	import java.sql.DriverManager;
@@ -14,7 +14,7 @@ package qq;
 //			}catch(ClassNotFoundException ee){
 //				System.exit(-1);
 //			}
-//			   java4¥i¥H¬Ù²¤
+//			   java4ï¿½iï¿½Hï¿½Ù²ï¿½
 			try{
 				Properties prop = new Properties();
 				prop.setProperty("user", "root");
@@ -26,7 +26,7 @@ package qq;
 						prop);
 				// 3. SQL statement
 				Statement stmt = conn.createStatement();
-				 //±qconnction¨ú±oStatement
+				 //ï¿½qconnctionï¿½ï¿½ï¿½oStatement
 				// 4. query
 				String sql = "INSERT INTO cust (cname,tel,birthday)" + 
 						" VALUES ('Amy','123','1999-09-08')";
